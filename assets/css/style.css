@@ -1,0 +1,50 @@
+.navbar > .container .navbar-brand {
+	margin-left: 0px;
+}
+
+/* Navbar additional styles */
+.navbar {
+	border-radius: 0;
+}
+
+.navbar-header {
+	margin-left: 15px;
+}
+
+.navbar-brand {
+	font-size: 33px;
+	font-weight: bold;
+	text-shadow: 1px 1px #98978b;
+	margin-left: 0px;
+}
+
+/* Main Section additional styles */
+
+.main-section {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.main-section img {
+	float: left;
+	max-width: 30%;
+	height: auto;
+	margin-right: 25px;
+	margin-bottom: 15px;
+}
+
+/* Sidebar additional styles */
+
+.sidebar h2 {
+	text-align: center;
+}
+
+.sidebar a {
+	display: inline-block;
+	width: 33%;
+	text-align: center;
+}
+
+.sidebar img {
+	margin: 0 auto;
+}
