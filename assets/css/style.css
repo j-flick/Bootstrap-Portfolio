@@ -1,8 +1,19 @@
+/* GLOBAL ADDITIONAL STYLES */
+
+h1, h2, h3, h4, h5, h6 {
+	color: #4d4d4d;
+}
+
+/* NAVBAR ADDITIONAL STYLES */
+
 .navbar > .container .navbar-brand {
 	margin-left: 0px;
 }
 
-/* Navbar additional styles */
+.navbar .nav > li > a:hover {
+	text-decoration: underline;
+}
+
 .navbar {
 	border-radius: 0;
 }
@@ -14,18 +25,24 @@
 .navbar-brand {
 	font-size: 33px;
 	font-weight: bold;
-	text-shadow: 1px 1px #98978b;
+	text-shadow: 1px 2px #000;
 	margin-left: 0px;
 }
 
-/* Main Section additional styles */
+/* MAIN SECTION ADDITIONAL STYLES */
 
 .main-section {
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
-.main-section img {
+.main-section h1 {
+	border-bottom: 2px solid #98978b;
+	padding-bottom: 5px;
+	margin-bottom: 25px;
+}
+
+.about-img {
 	float: left;
 	max-width: 30%;
 	height: auto;
@@ -33,18 +50,51 @@
 	margin-bottom: 15px;
 }
 
-/* Sidebar additional styles */
-
-.sidebar h2 {
-	text-align: center;
+.portfolio-img {
+	width: 274px;
 }
 
-.sidebar a {
-	display: inline-block;
-	width: 33%;
+/* SIDEBAR ADDITIONAL STYLES */
+
+.sidebar h3 {
 	text-align: center;
+	border-bottom: 2px solid #98978b;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+	margin-top: 32px;
+}
+
+.card-img-top {
+	width: 100%;
 }
 
 .sidebar img {
-	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+/* STICKY FOOTER */
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	line-height: 60px; /* Vertically center the text there */
+	background-color: #f5f5f5;
+}
+
+.footer p {
+	text-align: center;
+	margin-bottom: 0px;
+	font-size: 11px;
 }
